@@ -20,6 +20,7 @@ public class Categoria implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "seq_cat")
 	private Long id;
+	
 	private String descricao;
 	public Long getId() {
 		return id;
